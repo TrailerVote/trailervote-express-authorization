@@ -28,12 +28,21 @@
   resolved "https://registry.yarnpkg.com/@trailervote/express-logger/-/express-logger-2.0.1.tgz#800515109daff1fc97e92e4b99e2d6e7c3fd9635"
   integrity sha512-ZvkznndKrmYbJ86ZCNKFMziz39PkdYO6j/owAD7NHbZn1I4Or67B5Xxok5Ws04VpqhQ9eJ47ANgfxtB2xOKsSA==
 
-"@trailervote/express-render@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@trailervote/express-render/-/express-render-1.0.1.tgz#85cd554ee6de555ef9dd419f126741501c224aed"
-  integrity sha512-hMY0xUZy9MieSNgO+TnccRej1qvN5wDt/WEUiR6P/38DhRMIM0ZZAcQwGpheR18VRmvetnf/o3naBJWQjda8Cg==
+"@trailervote/express-logger@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@trailervote/express-logger/-/express-logger-2.0.3.tgz#fb3affdc0e36264b7e4efe622790d877aa549d37"
+  integrity sha512-P+ENWv2VD++KKwE6TNUgikwUPr+hjyE3ElO6O8mpH62PhTF5fGDcLKvotGc5z1zui5BCZ7Dujou2JJ/ETI6MIQ==
+  dependencies:
+    "@types/express" "^4.16.0"
+
+"@trailervote/express-render@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@trailervote/express-render/-/express-render-1.0.3.tgz#9c84c811de2d46cec69e6acf42136c1e8502be33"
+  integrity sha512-yN7vZywzgQUImUEk223En02GboXr43r9DoGu4/78aDGM771P4rT6khvep/4geySsnyUF8IyipFtt9pKbbAl+Eg==
   dependencies:
     "@trailervote/express-logger" "^2.0.1"
+    "@types/express" "^4.16.0"
+    "@types/node" "^10.12.18"
 
 "@types/body-parser@*":
   version "1.17.0"
