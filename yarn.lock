@@ -44,10 +44,10 @@
   dependencies:
     "@types/express" "^4.16.0"
 
-"@trailervote/express-render@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@trailervote/express-render/-/express-render-1.0.3.tgz#9c84c811de2d46cec69e6acf42136c1e8502be33"
-  integrity sha512-yN7vZywzgQUImUEk223En02GboXr43r9DoGu4/78aDGM771P4rT6khvep/4geySsnyUF8IyipFtt9pKbbAl+Eg==
+"@trailervote/express-render@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@trailervote/express-render/-/express-render-2.0.0.tgz#4681e293fd0846d426f17addb3d47bfd0597c792"
+  integrity sha512-LdY0hB4xNCrbS3fjmmwEkg+KrQzemK83IgBFWcVC9B3wvvEd569m2q4jit/xKKLSqLq8pUjWyLlsOUtAn3zPRw==
   dependencies:
     "@trailervote/express-logger" "^2.0.1"
     "@types/express" "^4.16.0"
