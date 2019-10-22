@@ -32,11 +32,6 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@trailervote/express-logger@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@trailervote/express-logger/-/express-logger-2.0.1.tgz#800515109daff1fc97e92e4b99e2d6e7c3fd9635"
-  integrity sha512-ZvkznndKrmYbJ86ZCNKFMziz39PkdYO6j/owAD7NHbZn1I4Or67B5Xxok5Ws04VpqhQ9eJ47ANgfxtB2xOKsSA==
-
 "@trailervote/express-logger@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@trailervote/express-logger/-/express-logger-2.1.1.tgz#d060dc9ea7839023a2322d49ca49c3cef5e9c82a"
@@ -44,14 +39,14 @@
   dependencies:
     "@types/express" "^4.16.0"
 
-"@trailervote/express-render@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@trailervote/express-render/-/express-render-1.0.3.tgz#9c84c811de2d46cec69e6acf42136c1e8502be33"
-  integrity sha512-yN7vZywzgQUImUEk223En02GboXr43r9DoGu4/78aDGM771P4rT6khvep/4geySsnyUF8IyipFtt9pKbbAl+Eg==
+"@trailervote/express-render@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@trailervote/express-render/-/express-render-2.0.1.tgz#d4df3ebaf6e4968fd37eb5cd2171f57b990ff6de"
+  integrity sha512-YJ8idRyhIGa4kyxbXAbeoyp0oNw2qFS0ncOcDiC9mKFiOIxpry8O1zcfWlzlA9APyXRunGbXEfKvi2bwd22ypw==
   dependencies:
-    "@trailervote/express-logger" "^2.0.1"
-    "@types/express" "^4.16.0"
-    "@types/node" "^10.12.18"
+    "@trailervote/express-logger" "^2.1.1"
+    "@types/express" "^4.17.1"
+    "@types/node" "^12.7.12"
 
 "@types/body-parser@*":
   version "1.17.0"
@@ -100,12 +95,21 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
+"@types/express@^4.17.1":
+  version "4.17.1"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.1.tgz#4cf7849ae3b47125a567dfee18bfca4254b88c5c"
+  integrity sha512-VfH/XCP0QbQk5B5puLqTLEeFgR8lfCJHZJKkInZ9mkYd+u8byX0kztXEQxEk4wZXJs8HI+7km2ALXjn4YKcX9w==
+  dependencies:
+    "@types/body-parser" "*"
+    "@types/express-serve-static-core" "*"
+    "@types/serve-static" "*"
+
 "@types/mime@*":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
   integrity sha512-A2TAGbTFdBw9azHbpVd+/FkdW2T6msN1uct1O9bH3vTerEHKZhTXJUQXy+hNq1B0RagfU8U+KBdqiZpxjhOUQA==
 
-"@types/node@*", "@types/node@^10.12.18":
+"@types/node@*":
   version "10.12.18"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.18.tgz#1d3ca764718915584fcd9f6344621b7672665c67"
   integrity sha512-fh+pAqt4xRzPfqA6eh3Z2y6fyZavRIumvjhaCL753+TVkGKGhpPeyrJG2JftD0T9q4GF00KjefsQ+PQNDdWQaQ==
@@ -114,6 +118,11 @@
   version "10.12.24"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.24.tgz#b13564af612a22a20b5d95ca40f1bffb3af315cf"
   integrity sha512-GWWbvt+z9G5otRBW8rssOFgRY87J9N/qbhqfjMZ+gUuL6zoL+Hm6gP/8qQBG4jjimqdaNLCehcVapZ/Fs2WjCQ==
+
+"@types/node@^12.7.12":
+  version "12.11.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.11.2.tgz#75ba3beda30d690b89a5089ca1c6e8e386150b76"
+  integrity sha512-dsfE4BHJkLQW+reOS6b17xhZ/6FB1rB8eRRvO08nn5o+voxf3i74tuyFWNH6djdfgX7Sm5s6LD8t6mJug4dpDw==
 
 "@types/range-parser@*":
   version "1.2.3"
